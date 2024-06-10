@@ -1,0 +1,24 @@
+{
+	"name": "yoga-graphql-duplicate-cookies",
+	"scripts": {
+		"node": "ts-node src/node.ts",
+		"express": "ts-node src/express.ts",
+		"ping": "ts-node src/ping.ts",
+		"pingRoot": "ts-node src/pingRoot.ts",
+		"uWebSockets": "ts-node src/uWebSockets.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/express": "^4.17.21",
+		"ts-node": "^10.9.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"express": "^4.19.2",
+		"graphql": "^16.8.1",
+		"graphql-yoga": "^5.3.1",
+		"uWebSockets.js": "uNetworking/uWebSockets.js#v20.43.0"
+	}
+}
